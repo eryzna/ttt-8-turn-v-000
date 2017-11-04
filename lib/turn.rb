@@ -23,7 +23,7 @@ def valid_move?(board, index)
     valid=false
   end
 end
-def move (board,index)
+def move(board,index)
   index=input_to_index
 end
 def turn(board)
