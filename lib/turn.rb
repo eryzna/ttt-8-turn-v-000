@@ -28,6 +28,6 @@ def move (board,index)
 end
 def turn(board)
   puts "Please enter 1-9:"
-  board=gets.strip
-  board.upcase
+  turn=gets.strip
+  input_to_index(user_input)
 end
