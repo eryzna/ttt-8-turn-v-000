@@ -23,8 +23,8 @@ def valid_move?(board,index)
     valid=false
   end
 end
-def move(board,index)
-  index=input_to_index
+def move(board,index, current_player="X")
+  boar[index]=current_player
 end
 def turn(board)
   puts "Please enter 1-9:"
